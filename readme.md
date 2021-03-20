@@ -12,6 +12,7 @@ Uses the template by distantcam:
 
 ### Installation
 
+* `git clone https://github.com/Ibsardar/ElectronPhaser3Game.git`
 * `cd ElectronPhaser3Game`
 * `yarn`
 
