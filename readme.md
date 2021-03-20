@@ -1,4 +1,10 @@
-# phaser-electron-typescript-parcel [![Build Status](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel.svg?branch=master)](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel)
+# ElectronPhaser3Game
+
+### A basic game in Phaser 3 and Electron.
+
+---
+
+## phaser-electron-typescript-parcel [![Build Status](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel.svg?branch=master)](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel)
 
 A minimal template with the following things.
 
@@ -7,15 +13,15 @@ A minimal template with the following things.
 - [Parcel](https://github.com/parcel-bundler/parcel) 📦 Blazing fast, zero configuration web application bundler
 - [TypeScript](https://www.typescriptlang.org/) ⌨️ is a typed superset of JavaScript that compiles to plain JavaScript.
 
-## Installation
+### Installation
 
 * `git@github.com:distantcam/phaser-electron-typescript-parcel.git`
 * `cd phaser-electron-typescript-parcel`
 * `yarn`
 
-## Usage
+### Usage
 
-### Cleaning
+#### Cleaning
 Run these commands to clean up the directory
 ``` bash
 # Cleans up the build and dist folders
@@ -25,7 +31,7 @@ yarn clean
 yarn superclean
 ```
 
-### Development mode
+#### Development mode
 Run these commands to build and run the Electron app
 ``` bash
 # Parcel bundles the code
@@ -46,7 +52,7 @@ $ yarn debug
 # - run 'Electron: All' in the debugger
 ```
 
-### Production mode and packaging app
+#### Production mode and packaging app
 Run this command to bundle code in production mode
 ``` bash
 # Create executables
