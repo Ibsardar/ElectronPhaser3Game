@@ -1,12 +1,9 @@
 # ElectronPhaser3Game
 
-### A basic game in Phaser 3 and Electron.
+### (forked repo) phaser-electron-typescript-parcel [![Build Status](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel.svg?branch=master)](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel)
 
----
-
-## phaser-electron-typescript-parcel [![Build Status](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel.svg?branch=master)](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel)
-
-A minimal template with the following things.
+A basic game in Phaser 3 and Electron.
+Uses the template by distantcam:
 
 - [Phaser](https://phaser.io/) 🕹️ Desktop and Mobile HTML5 game framework
 - [Electron](https://electronjs.org/) ⚛️ Build cross platform desktop apps with JavaScript, HTML, and CSS
@@ -15,8 +12,7 @@ A minimal template with the following things.
 
 ### Installation
 
-* `git@github.com:distantcam/phaser-electron-typescript-parcel.git`
-* `cd phaser-electron-typescript-parcel`
+* `cd ElectronPhaser3Game`
 * `yarn`
 
 ### Usage
