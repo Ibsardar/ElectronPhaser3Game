@@ -10,6 +10,8 @@ Uses the template by distantcam:
 - [Parcel](https://github.com/parcel-bundler/parcel) 📦 Blazing fast, zero configuration web application bundler
 - [TypeScript](https://www.typescriptlang.org/) ⌨️ is a typed superset of JavaScript that compiles to plain JavaScript.
 
+---
+
 ## Installation
 
 * `git clone https://github.com/Ibsardar/ElectronPhaser3Game.git`
