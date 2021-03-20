@@ -10,15 +10,15 @@ Uses the template by distantcam:
 - [Parcel](https://github.com/parcel-bundler/parcel) 📦 Blazing fast, zero configuration web application bundler
 - [TypeScript](https://www.typescriptlang.org/) ⌨️ is a typed superset of JavaScript that compiles to plain JavaScript.
 
-### Installation
+## Installation
 
 * `git clone https://github.com/Ibsardar/ElectronPhaser3Game.git`
 * `cd ElectronPhaser3Game`
 * `yarn`
 
-### Usage
+## Usage
 
-#### Cleaning
+### Cleaning
 Run these commands to clean up the directory
 ``` bash
 # Cleans up the build and dist folders
@@ -28,7 +28,7 @@ yarn clean
 yarn superclean
 ```
 
-#### Development mode
+### Development mode
 Run these commands to build and run the Electron app
 ``` bash
 # Parcel bundles the code
@@ -49,7 +49,7 @@ $ yarn debug
 # - run 'Electron: All' in the debugger
 ```
 
-#### Production mode and packaging app
+### Production mode and packaging app
 Run this command to bundle code in production mode
 ``` bash
 # Create executables
