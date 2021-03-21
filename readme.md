@@ -57,3 +57,8 @@ Run this command to bundle code in production mode
 # Create executables
 $ yarn dist
 ```
+
+## Credits
+
+### Art
+- https://scut.itch.io/7drl-tileset-2018
