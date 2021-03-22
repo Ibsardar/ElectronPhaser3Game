@@ -1,6 +1,6 @@
 import { MenuScene } from './scenes/menu';
 
-const config: GameConfig = {
+const config: Phaser.Types.Core.GameConfig = {
     type: Phaser.AUTO,
     width: 800,
     height: 600,

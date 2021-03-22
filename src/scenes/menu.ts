@@ -23,11 +23,17 @@ class MenuScene extends Phaser.Scene {
 
     public create (data: object) {
 
-        const img = this.add.image(64, 120, 'tiles');
+        const img = this.add.image(-10000, -10000, 'tiles');
         const lvl = [
-            [47, 55, 47, 55],
-            [55, 47, 55, 47],
-            [47, 55, 47, 55]
+            [47, 55, 47, 55, 47, 55, 47, 55, 47, 55, 47, 55],
+            [55, 47, 55, 47, 55, 47, 55, 47, 55, 47, 55, 47],
+            [47, 55, 47, 55, 47, 55, 47, 55, 47, 55, 47, 55],
+            [55, 47, 55, 47, 55, 47, 55, 47, 55, 47, 55, 47],
+            [47, 55, 47, 55, 47, 55, 47, 55, 47, 55, 47, 55],
+            [55, 47, 55, 47, 55, 47, 55, 47, 55, 47, 55, 47],
+            [47, 55, 47, 55, 47, 55, 47, 55, 47, 55, 47, 55],
+            [55, 47, 55, 47, 55, 47, 55, 47, 55, 47, 55, 47],
+            [47, 55, 47, 55, 47, 55, 47, 55, 47, 55, 47, 55]
         ];
         const map = this.make.tilemap({
             data: lvl,
@@ -36,6 +42,7 @@ class MenuScene extends Phaser.Scene {
         });
         const tiles = map.addTilesetImage('tiles');
         const layer = map.createLayer(0, tiles, 0, 0);
+        layer.scale = 8;
     }
 
     public update (time: number, delta: number) {
