@@ -1,10 +1,14 @@
 class BasicButton extends Phaser.GameObjects.Sprite {
+
+    config:any;
+
     constructor(config:any) {
 
         //call the constructor of the parent
         //set at 0,0 in case there is no x and y
         //in the config
         super(config.scene, 0, 0, config.key, config.up);
+        this.config = config;
 
         //check if config contains a scene
         if (!config.scene) {
@@ -39,6 +43,27 @@ class BasicButton extends Phaser.GameObjects.Sprite {
 
         //add this to the scene
         config.scene.add.existing(this);
-     }
 
+        //make interactive and set listeners
+        this.setInteractive();
+        this.on('pointerdown',this.onDown,this);
+        this.on('pointerup',this.onUp,this);
+        this.on('pointerover',this.onOver,this);
+        this.on('pointerout',this.onUp,this);
+    }
+
+    onDown () {
+
+        this.setFrame(this.config.down);
+    }
+    onOver () {
+
+        this.setFrame(this.config.over);
+    }
+    onUp () {
+
+        this.setFrame(this.config.up);
+    }
   }
+
+  export { BasicButton };
